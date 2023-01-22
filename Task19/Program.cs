@@ -39,6 +39,6 @@ for (int i = 0; i < arrayA.Length; i++)
         z = z + 1;
 }
 
-if ( z == 5)
+if ( z == arrayA.Length)
     Console.WriteLine("Число является полиндромом");
-else Console.WriteLine("Число НЕ является полиндромом или не пятизначное");
+else Console.WriteLine("Число НЕ является полиндромом");
